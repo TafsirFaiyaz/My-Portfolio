@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tafsir Ahmed Faiyaz</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk:SHLN@35.7&family=Pacifico&display=swap" rel="stylesheet">
+
+    <script>
+  
+      const lastModifiedDate = new Date(document.lastModified);
+
+      const formattedDate = lastModifiedDate.toLocaleString();
+
+      const currentPageUrl = window.location.href;
+
+
+      document.addEventListener('DOMContentLoaded', () => {
+          const footer = document.querySelector('#footer');
+          footer.textContent = `Last modified: ${formattedDate} | Page location: ${currentPageUrl}`;
+      });
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="navbar bg-base-100 p-6 shadow-2xl rounded-full">
+
+        <div class="flex-1 flex justify-center">
+          <a class="btn btn-ghost text-xl">Tafsir Ahmed Faiyaz</a>
+        </div>
+
+        <div class="flex-none gap-2">
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+
+              <img src="Images/378346428_9914487308622295_8606993950810156830_n.jpg" alt ="Picture of Tafsir" />
+
+              </div>
+              
+            </div>
+
+            <nav>
+
+              <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+
+              <li><a href="#personal-info">About</a></li>
+              <li><a href="#contact-info">Contact</a></li>          
+
+            </ul>
+
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="Images/378346428_9914487308622295_8606993950810156830_n.jpg" alt ="Picture of Tafsir" class="max-w-sm rounded-full shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold header_name">Tafsir Ahmed Faiyaz</h1>
+            <p class="py-10 paragraph text-2xl font-semibold">A bit about me</p>
+            <p class="paragraph text-2xl">Hello! I'm Tafsir Ahmed Faiyaz, an aspirant to become a Game Developer. I am from Bangladesh and 
+              currently studying in <a href="https://www.bracu.ac.bd/" style="color: rgb(255, 102, 0); text-decoration: underline;">Brac University</a>.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+
+      <section class="min-h-screen hobbies shadow-2xl">
+
+          <h2 class="paragraph text-6xl font-bold text-center py-6 text-red">Favorite Quote</h2>
+          <p class="paragraph text-center text-2xl py-10">"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</p>
+
+      </section>
+
+      <section class="hobbies min-h-screen shadow-2xl" id = "personal-info">
+
+        <div><h2 class="paragraph text-6xl font-bold text-center py-10 text-red">Personal Info</h2></div>
+        
+          <p class="paragraph text-2xl font-bold text-center py-10 text-red">I did my SSC from Junior Laboratory High School in 2018 and HSC from Dhaka City College in 2020. I am profficient in Python and Java.<br>
+          I am currently learning HTML,CSS and Flutter 
+          </p>
+
+      </section>
+
+      <section class="hobbies min-h-screen shadow-2xl">
+
+          <div><h2 class="paragraph text-6xl font-bold text-center py-10 text-red">Hobbies that I enjoy.......</h2></div>
+
+          <p class="paragraph text-2xl font-Italic text-center py-10 text-red">
+            First of all I really enjoy playing video games. I love gaming because it offers a unique blend of challenge and creativity. Immersing myself in different worlds and
+            narratives provides endless excitement and inspiration. Gaming also fosters a sense of community and teamwork, which I find incredibly rewarding.
+          </p>
+        
+
+          <p class="paragraph text-2xl font-Italic text-center py-10 text-red">
+            Watching anime is one of my favorite pastimes. The rich storytelling, diverse genres, and vibrant animation captivate my imagination. Anime also offers a fascinating 
+            glimpse into different cultures and philosophies, making it both entertaining and enlightening.
+          </p>
+
+
+          <p class="paragraph text-2xl font-Italic text-center py-10 text-red">
+            I really love coding. It is because it allows me to create and bring ideas to life. The process of solving problems and building applications is incredibly fulfilling.
+            It's a field where continuous learning and innovation are the norms, and that's what excites me the most. You can see my Leetcode profile
+            <a href="https://leetcode.com/u/tafsirfaiyaz/" style="color: rgb(255, 102, 0); text-decoration: underline;">here</a>.
+          </p>
+        
+        
+      </section>
+
+      <section class="min-h-screen hobbies shadow-2xl">
+
+          <h2 class="paragraph text-6xl font-bold text-center py-10 text-red">Top 5 Favorite Albums</h2>
+
+          <ol class="list-decimal list-inside text-center paragraph text-center text-2xl py-10">
+              <li>Hymn - Cold Play</li>
+              <li>Save Your Tears - The Weekend</li>
+              <li>Thriller - Michael Jackson</li>
+              <li>The Wall - Pink Floyd</li>
+              <li>Back in Black - AC/DC</li>
+          </ol>
+
+      </section>
+
+
+      <section class="min-h-screen hobbies shadow-2xl">
+        <h2 class="paragraph text-6xl font-bold text-center py-6 text-red">Favorite Links</h2>
+
+        <ul class="list-disc list-inside text-center paragraph text-center text-2xl py-10">
+
+            <li><a href="https://www.bracu.ac.bd" class="text-blue-500 underline">BRAC University</a></li>
+            <li><a href="https://piazza.com/class/cse391" class="text-blue-500 underline">CSE 391 Piazza Page</a></li>
+            <li><a href="https://leetcode.com/problemset/" class="text-blue-500 underline">Leetcode </a></li>
+            <li><a href="https://www.stackoverflow.com" class="text-blue-500 underline">Stack Overflow</a></li>
+            <li><a href="https://chatgpt.com/" class="text-blue-500 underline">chatgpt</a></li>
+
+        </ul>
+
+      </section>      
+      
+      <section class="destination-img-container min-h-screen mb-9 ">
+        <h2 class="text-2xl font-semibold mb-4 paragraph text-6xl font-bold text-center py-10 text-red">Some Places I visited</h2>
+      
+        
+        <div class="maldives destination-text-position image-container">
+          <img src="Images/Rectangle5.png" alt="A photograph from Maldives">
+        </div>
+        <h3 class="text-1xl font-semibold mb-4 paragraph text-6xl font-bold text-center py-10 text-red">Maldives</h3>
+        
+        
+        <div class="indonesia destination-text-position image-container">
+          <img src="Images/Rectangle7.png" alt="A photograph from Indonesia">
+        </div>
+        <h3 class="text-1xl font-semibold mb-4 paragraph text-6xl font-bold text-center py-10 text-red">Indonesia</h3>
+      
+
+        <div class="srilanka destination-text-position image-container">
+          <img src="Images/Rectangle6.png" alt="A photograph from Sri-Lanka">
+        </div>
+        <h3 class="text-1xl font-semibold mb-4 paragraph text-6xl font-bold text-center py-10 text-red">Sri-Lanka</h3>
+
+      </section>
+      
+      
+      
+
+      
+
+      <section id="contact-info" class="mb-6 hobbies min-h-screen shadow-2xl">
+
+        <h2 class="text-2xl font-semibold mb-4 paragraph text-6xl font-bold text-center py-10 text-red">Contact Information</h2>
+
+          <table class="table-auto w-full max-w-sm">
+
+              <thead>
+                  <tr class="bg-blue-500 text-black">
+                      <th class="px-4 py-2">Type</th>
+                      <th class="px-4 py-2">Details</th>
+                  </tr>
+              </thead>
+
+              <tbody>
+
+                  <tr class="bg-gray-200 text-black">
+                      <td class="px-4 py-2">Email</td>
+                      <td class="px-4 py-2">tafsirfaiyaz@gmail.com</td>
+                  </tr>
+
+                  <tr class="bg-gray-200 text-black">
+                    <td class="border px-4 py-2">Phone</td>
+                    <td class="border px-4 py-2">+880-1708-174-653</td>
+                  </tr>
+
+                  <tr class="bg-gray-200 text-black">
+                    <td class="border px-4 py-2">Address</td>
+                    <td class="border px-4 py-2">60/1,Suvastu Soptoborna, GreenRoad, Dhaka</td>
+                  </tr>
+
+              </tbody>
+          </table>
+      </section>
+
+      <footer id="footer"></footer>
+
+    </main>
+
+
+
+  </body>
+</html>
